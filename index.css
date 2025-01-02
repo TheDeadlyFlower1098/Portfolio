@@ -80,7 +80,7 @@ section {
     margin: 0.5rem;
 }
 
-.project-card {
+.project-card, .experience-card {
     border: 3px solid #ddd;
     padding: 2rem;
     margin: 1rem;
@@ -88,6 +88,10 @@ section {
     border-radius: 5px;
 }
 
+.experience-card p
+{
+    font-size: 12px;
+}
 
 h1, h2 {
     color: #333;
