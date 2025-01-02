@@ -28,9 +28,11 @@
         </ul>
     </nav>
 
+    <button id="toggleMode" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
     <section id="about">
         <h2>About Me</h2>
-        <p>Hi, I'm Kalli Putt, a passionate Computer Software Engineer with a focus on back-end programming and efficiency. I’m driven by a love for solving complex problems and optimizing systems to deliver high-quality, scalable solutions.</p>
+        <p class="dark">Hi, I'm Kalli Putt, a passionate Computer Software Engineer with a focus on back-end programming and efficiency. I’m driven by a love for solving complex problems and optimizing systems to deliver high-quality, scalable solutions.</p>
     </section>
 
     <section id="resume">
@@ -50,7 +52,8 @@
 
     <section id="skills">
         <h2>Skills</h2>
-        <ul>
+        
+        <ul class="skills-list">
             <li>Front-End Development: HTML, CSS, JavaScript</li>
             <li>Back-End Development: Java & C++</li>
             <li>Version Control: Git, GitHub</li>
@@ -58,6 +61,7 @@
             <li>Data Structures & Algorithms</li>
             <li>Soft Skills: Communication, Problem-Solving, Collaboration</li>
         </ul>
+
     </section>
 
     <section id="projects">
@@ -322,14 +326,16 @@
 
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:kalli.putt.5.23.07@gmail.com">kalli.putt.5.23.07@gmail.com</a></p>
-        <p>Phone: (223)-333-0881</p>
-        <p>Address: 148 Valley View Place, Lebanon, Pennsylvania 17042</p>
+        <p class="dark">Email: <a href="mailto:kalli.putt.5.23.07@gmail.com">kalli.putt.5.23.07@gmail.com</a></p>
+        <p class="dark">Phone: (223)-333-0881</p>
+        <p class="dark">Address: 148 Valley View Place, Lebanon, Pennsylvania 17042</p>
     </section>
 
     <footer class="footer">
         <p>&copy; 2024 Kalli Putt. All Rights Reserved.</p>
     </footer>
+
+    <script src="index.js"></script>
 </body>
 
 </html>

@@ -63,7 +63,6 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-
 section {
     padding: 2rem;
     background: #d5d5d5;
@@ -71,6 +70,20 @@ section {
     max-width: 800px;
     border: 1px dashed rgba(92, 92, 92);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #232323;
+}
+  
+body.dark-mode h2, body.dark-mode .dark, body.dark-mode .skills-list{
+    color: white;
+}
+
+body.dark-mode section {
+    border: 1px solid #5a5a5a;
+    background-color: #3b3b3b;
 }
 
 .button-container {
