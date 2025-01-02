@@ -1,54 +1,82 @@
-/* Reset margin and padding for all elements */
-* {
-    margin: 0;
-    padding: 0;
-}
+        /* Reset and basic styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-/* Styles for the navigation bar */
-nav {
-    display: flex; /* Use flexbox for layout */
-    background-color: rgb(210, 210, 210);
-    justify-content: space-between; /* Space out items */
-    padding: 15px 30px;
-    position: fixed; /* Fix the navbar to the top */
-    width: 100%; /* Full width */
-}
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
 
-/* Style for the logo image */
-.nav-left img {
-    height: 40px;
-    width: 50px;
-    object-fit: contain; /* Maintain image aspect ratio */
-    margin-right: 20px; /* Add space to the right of the logo */
-}
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
 
-/* Right section of the navbar */
-.nav-right {
-    display: flex; /* Use flexbox for layout */
-    float: right; /* Float the right section to the right */
-    padding-right: 150px;
-}
+        nav {
+            background: #555;
+            padding: 0.5rem 0;
+        }
 
-/* Styles for the unordered list in the right section */
-.nav-right ul {
-    list-style-type: none; /* Remove list bullets */
-    display: flex; /* Use flexbox for layout */
-    gap: 40px; /* Add space between list items */
-    align-items: center; /* Vertically align items */
-}
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
 
-/* Style for each list item */
-.nav-right li {
-    font-size: 20px;
-}
+        nav ul li {
+            margin: 0 15px;
+        }
 
-/* Styles for links in the right navbar */
-.nav-right ul li a {
-    text-decoration: none; /* Remove underline */
-    color: rgba(51, 166, 229, 0.838);
-}
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-/* Hover effect for links */
-.nav-right ul li a:hover {
-    color: rgba(0, 200, 255, 0.838);
-}
+        nav ul li a:hover {
+            color: #f4f4f4;
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 2rem;
+            background: #fff;
+            margin: 1rem auto;
+            max-width: 800px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .contact-info {
+            margin-top: 1rem;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
