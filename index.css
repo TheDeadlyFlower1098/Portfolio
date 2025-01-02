@@ -29,7 +29,8 @@ header .logo {
     height: auto; /* Maintain aspect ratio */
     margin-right: 1rem; /* Add some space between the image and text */
 }
-* Sticky navigation */
+
+/* Sticky navigation */
 nav {
     background: #555;
     padding: 0.5rem 0;
