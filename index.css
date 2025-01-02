@@ -1,0 +1,54 @@
+/* Reset margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the navigation bar */
+nav {
+    display: flex; /* Use flexbox for layout */
+    background-color: rgb(210, 210, 210);
+    justify-content: space-between; /* Space out items */
+    padding: 15px 30px;
+    position: fixed; /* Fix the navbar to the top */
+    width: 100%; /* Full width */
+}
+
+/* Style for the logo image */
+.nav-left img {
+    height: 40px;
+    width: 50px;
+    object-fit: contain; /* Maintain image aspect ratio */
+    margin-right: 20px; /* Add space to the right of the logo */
+}
+
+/* Right section of the navbar */
+.nav-right {
+    display: flex; /* Use flexbox for layout */
+    float: right; /* Float the right section to the right */
+    padding-right: 150px;
+}
+
+/* Styles for the unordered list in the right section */
+.nav-right ul {
+    list-style-type: none; /* Remove list bullets */
+    display: flex; /* Use flexbox for layout */
+    gap: 40px; /* Add space between list items */
+    align-items: center; /* Vertically align items */
+}
+
+/* Style for each list item */
+.nav-right li {
+    font-size: 20px;
+}
+
+/* Styles for links in the right navbar */
+.nav-right ul li a {
+    text-decoration: none; /* Remove underline */
+    color: rgba(51, 166, 229, 0.838);
+}
+
+/* Hover effect for links */
+.nav-right ul li a:hover {
+    color: rgba(0, 200, 255, 0.838);
+}
