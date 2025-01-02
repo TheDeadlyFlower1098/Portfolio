@@ -80,6 +80,15 @@ section {
     margin: 0.5rem;
 }
 
+.project-card {
+    border: 3px solid #ddd;
+    padding: 2rem;
+    margin: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+
 h1, h2 {
     color: #333;
 }
@@ -89,7 +98,6 @@ h1, h2 {
     padding: 1rem;
     background: #333;
     color: #fff;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
